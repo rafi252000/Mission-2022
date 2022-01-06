@@ -2,7 +2,11 @@ body{
     width: 100%;
 }
 h1{
-    font-size: 25px;   
+    font-size: 25px;  
+    
+}
+.h1-padding{
+    padding-left: 10px; 
 }
 p{
     text-align: justify;
