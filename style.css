@@ -1,0 +1,83 @@
+body{
+    width: 90%;
+}
+h1{
+    font-size: 25px;   
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+.border{
+    border-image-slice: 15%;
+    border-left: orangered;
+}
+.color{
+    color:orange;
+}
+.span-size{
+    font-size: 37px;
+}
+.width{
+    
+    display: flex;
+    padding-left: 5%;
+    padding-right: 3%;
+    
+    
+}
+.half-width{
+    width: 50%;
+    
+}
+.img-size{
+    width: 800px;
+    height: 700px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 1000px;
+
+}
+.top{
+    margin-top: 5%;
+}
+.text-middle{
+    text-align: center;
+}
+.flxible-area{
+    width: 80%;
+}
+.my-mission{
+    display: flex;
+}
+.one-third-width{
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 10px #888888;
+}
+.Mission{
+    width: 25%;
+    background-color: skyblue;
+    
+}
+
+
+
+
+
+.coding-image{
+    width: 500px;
+    height: auto;
+}
+.shape{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
