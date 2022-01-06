@@ -77,10 +77,6 @@ p{
 .Goals{
     background-color: pink;
 } 
-
-
-
-
 .coding-image{
     width: 85%;
     height: auto;
@@ -93,6 +89,9 @@ p{
 }
 .one-third-width{
     border-image-slice: 70%;
+}
+.font--covid{
+    font-size: 15px;
 }
 .footer-size{
     font-family: 'Lobster';font-size: 22px;
