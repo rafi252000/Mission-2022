@@ -1,5 +1,5 @@
 body{
-    width: 90%;
+    width: 100%;
 }
 h1{
     font-size: 25px;   
@@ -9,8 +9,8 @@ p{
     font-size: 20px;
 }
 .border{
-    border-image-slice: 15%;
-    border-left: orangered;
+    
+    border-left: 3px solid orangered;
 }
 .color{
     color:orange;
@@ -28,18 +28,18 @@ p{
 }
 .half-width{
     width: 50%;
-    margin-left: 7%;
+    margin-left: 3%;
     
 }
 .img-size{
-    width: 800px;
-    height: 700px;
+    width: 80%;
+    height: auto;
 }
 .button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: 1000px;
 
 }
@@ -48,12 +48,18 @@ p{
 }
 .text-middle{
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .flxible-area{
-    width: 80%;
+    width: 100%;
 }
 .my-mission{
     display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.my-mission img{
+    width: 50%;
 }
 .one-third-width{
     padding-left: 1%;
@@ -61,25 +67,46 @@ p{
     border-radius: 5px;
     margin-left: 5%;
     margin-bottom: 5%;
-    box-shadow: 5px 10px #888888;
 }
-.Mission{
-    width: 25%;
-    background-color: skyblue;
-    
+.mission{
+    background-color: rgb(199, 175, 175);
 }
-
+.Vission{
+   background-color: paleturquoise;
+}
+.Goals{
+    background-color: pink;
+} 
 
 
 
 
 .coding-image{
-    width: 500px;
+    width: 85%;
     height: auto;
 }
 .shape{
     background-image: url(images/shapes/dream-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    margin: 3%;
+    margin: 5%;
+}
+.one-third-width{
+    border-image-slice: 70%;
+}
+.footer-size{
+    font-family: 'Lobster';font-size: 22px;
+    text-align: center;
+    color: brown;
+}
+.footer-bg{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding: 3px;
+}
+.footer-size-p{
+    text-align: center;
+    color: wheat;
+
 }
